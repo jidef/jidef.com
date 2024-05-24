@@ -1,26 +1,27 @@
-import localFont from "next/font/local";
-import "./globals.css";
+import localFont from 'next/font/local'
+import './globals.css'
 
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-});
+  src: './fonts/GeistVF.woff',
+  variable: '--font-geist-sans'
+})
 const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-});
+  src: './fonts/GeistMonoVF.woff',
+  variable: '--font-geist-mono'
+})
 
 export const metadata = {
-  title: "Jidef - Software development ",
-  description: "Software development",
-};
+  title: 'Jidef - Software developer ',
+  description:
+    'Software developer | Architecting innovative solutions for scalable enterprise growth'
+}
 
-export default function RootLayout({ children }) {
+export default function RootLayout ({ children }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
     </html>
-  );
+  )
 }

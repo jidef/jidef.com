@@ -5,9 +5,9 @@ export default function Home () {
     <div className='font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 bg-[#0a0a0a] text-[#fff]'>
       <main className='flex flex-col gap-8 row-start-2 items-center sm:items-start'>
         <span className='font-mono list-inside list-decimal text-center sm:text-left text-xl'>
-          Jidef dot com
+          Jidef | Software developer
         </span>
-        Hello world
+        Architecting innovative solutions for scalable enterprise growth
         <div className='flex gap-4 items-center flex-col sm:flex-row'>
           <a
             className='rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 bg-foreground'
