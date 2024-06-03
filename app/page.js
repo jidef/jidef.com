@@ -10,7 +10,7 @@ export default function Home () {
         <h1 className='font-sans list-inside list-decimal text-center sm:text-left text-3xl font-semibold'>
           Jidef / Software developer
         </h1>
-        <span>
+        <span className='text-center sm:text-left'>
           Architecting innovative solutions for scalable enterprise growth
         </span>
         <div className='flex gap-4 items-center flex-col sm:flex-row'>
