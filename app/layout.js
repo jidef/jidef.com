@@ -12,9 +12,9 @@ const geistMono = localFont({
 })
 
 export const metadata = {
-  title: 'Jidef - Software developer ',
+  title: 'Jidef - Web developer ',
   description:
-    'Software developer - Architecting innovative solutions for scalable enterprise growth'
+    'Web developer - Architecting innovative solutions for scalable enterprise growth'
 }
 
 export default function RootLayout ({ children }) {
@@ -23,7 +23,7 @@ export default function RootLayout ({ children }) {
       <Head>
         <meta
           name='keywords'
-          content='Jidef, software developer, enterprise solutions, scalable growth, GitHub, X, YouTube'
+          content='Jidef, web developer, software developer, enterprise solutions, scalable growth, GitHub, X, YouTube'
         />
         <link rel='canonical' href='https://jidef.com' />
         <meta name='robots' content='index, follow' />

@@ -43,7 +43,7 @@ export default function Home () {
               width={20}
               height={20}
             />
-            x.com/jidef
+            @jidef
           </a>
           <a
             className='rounded-full border border-solid border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44 gap-2 bg-background'
@@ -58,7 +58,7 @@ export default function Home () {
               width={20}
               height={20}
             />
-            youtube.com/jidef
+            YouTube
           </a>
           <a
             href='mailto:contact@jidef.com'
