@@ -1,17 +1,18 @@
-'use client'
 import Image from 'next/image'
-import { cn } from '@/app/lib/utils'
-import GridPattern from '@/app/components/magicui/grid-pattern'
+import { cn } from '@/lib/utils'
+import { BentoDemo } from '@/components/projects'
+import DotPattern from '@/components/magicui/dot-pattern'
+import ShimmerButton from '@/components/magicui/shimmer-button'
 
 export default function Home () {
   return (
-    <div className='relative font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 bg-[#0a0a0a] text-[#fff]'>
-      <main className='flex flex-col gap-8 row-start-2 items-center sm:items-start'>
+    <div className='relative font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20  text-[#fff]'>
+      <main className='flex flex-col gap-8 row-start-2 items-center sm:items-start w-full xl:w-[1000px] mx-auto mt-4'>
         <h1 className='font-sans list-inside list-decimal text-center sm:text-left text-3xl font-semibold'>
-          Jidef / Software developer
+          Jidef / Web Developer
         </h1>
         <span className='text-center sm:text-left'>
-          Architecting innovative solutions for scalable enterprise growth
+          Architecting innovative solutions for scalable enterprise growth.
         </span>
         <div className='flex gap-4 items-center flex-col sm:flex-row'>
           <a
@@ -59,12 +60,47 @@ export default function Home () {
             />
             youtube.com/jidef
           </a>
+          <a
+            href='mailto:contact@jidef.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <ShimmerButton className='shadow-2xl'>
+              <span className='whitespace-pre-wrap text-center  leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 text-sm py-0 sm:text-base flex items-center justify-center gap-2'>
+                <Image
+                  aria-hidden
+                  src='/send.svg'
+                  alt='Send icon'
+                  width={20}
+                  height={20}
+                />
+                Let's talk
+              </span>
+            </ShimmerButton>
+          </a>
         </div>
-        <GridPattern
+        {/* separator */}
+        <div className='h-2'></div>
+
+        <h2 className='font-sans list-inside list-decimal text-center sm:text-left text-3xl font-semibold'>
+          My Projects
+        </h2>
+        <BentoDemo />
+        {/* <GridPattern
           width={20}
           height={20}
           x={-1}
           y={-1}
+          className={cn(
+            '[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] '
+          )}
+        /> */}
+        <DotPattern
+          width={20}
+          height={20}
+          cx={1}
+          cy={1}
+          cr={1}
           className={cn(
             '[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] '
           )}
