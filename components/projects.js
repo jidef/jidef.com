@@ -52,7 +52,7 @@ const features = [
     cta: 'Deploy',
     background: (
       <img
-        src='/image4.jpg'
+        src='/image2.jpg'
         className='absolute h-full object-cover opacity-60'
       ></img>
     ),
