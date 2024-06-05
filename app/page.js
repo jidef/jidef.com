@@ -16,7 +16,7 @@ export default function Home () {
         </span>
         <div className='flex gap-4 items-center flex-col sm:flex-row'>
           <a
-            className='rounded-full border border-solid border-transparent transition-colors flex items-center justify-center  text-background gap-2 hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 bg-foreground'
+            className='rounded-full border border-solid border-transparent transition-colors flex items-center justify-center  text-background gap-2 hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 bg-foreground min-w-56 sm:min-w-44'
             href='https://github.com/jidef'
             target='_blank'
             rel='noopener noreferrer'
@@ -31,7 +31,7 @@ export default function Home () {
             GitHub
           </a>
           <a
-            className='rounded-full border border-solid border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44 gap-2 bg-background'
+            className='rounded-full border border-solid border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 min-w-56 sm:min-w-44 gap-2 bg-background'
             href='https://x.com/jidef'
             target='_blank'
             rel='noopener noreferrer'
@@ -46,7 +46,7 @@ export default function Home () {
             @jidef
           </a>
           <a
-            className='rounded-full border border-solid border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44 gap-2 bg-background'
+            className='rounded-full border border-solid border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 gap-2 bg-background min-w-56 sm:min-w-44'
             href='https://youtube.com/jidef'
             target='_blank'
             rel='noopener noreferrer'
@@ -66,7 +66,7 @@ export default function Home () {
             rel='noopener noreferrer'
           >
             <ShimmerButton className='shadow-2xl'>
-              <span className='whitespace-pre-wrap text-center  leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 text-sm py-0 sm:text-base flex items-center justify-center gap-2'>
+              <span className='whitespace-pre-wrap text-center  leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 text-sm py-0 sm:text-base flex items-center justify-center gap-2 min-w-44 sm:min-w-32'>
                 <Image
                   aria-hidden
                   src='/send.svg'
