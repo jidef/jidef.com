@@ -32,7 +32,7 @@ export default function RootLayout ({ children }) {
           property='og:description'
           content='Architecting innovative solutions for scalable enterprise growth.'
         />
-        <meta property='og:image' content='https://jidef.com/image.png' />
+        <meta property='og:image' content='/og.jpg' />
         <meta property='og:url' content='https://jidef.com' />
         <meta property='og:type' content='website' />
         <meta name='twitter:card' content='summary_large_image' />
