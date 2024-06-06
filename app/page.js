@@ -4,14 +4,20 @@ import { BentoDemo } from '@/components/projects'
 import DotPattern from '@/components/magicui/dot-pattern'
 import ShimmerButton from '@/components/magicui/shimmer-button'
 import Particles from '@/components/magicui/particles'
+import { Badge } from '@/components/ui/badge'
 
 export default function Home () {
   return (
     <div className='relative font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20  text-[#fff]'>
       <main className='flex flex-col gap-8 row-start-2 items-center sm:items-start w-full xl:w-[1000px] mx-auto mt-4'>
-        <h1 className='font-sans list-inside list-decimal text-center sm:text-left text-3xl font-semibold'>
-          Jidef / Web Developer
-        </h1>
+        <div className='flex row gap-2'>
+          <h1 className='font-sans list-inside list-decimal text-center sm:text-left text-3xl font-semibold'>
+            Jidef / Web Developer
+          </h1>
+          <div className='flex items-center gap-2'>
+            <Badge>Available for hire</Badge>
+          </div>
+        </div>
         <span className='text-center sm:text-left'>
           Architecting innovative solutions for scalable enterprise growth.
         </span>
@@ -84,7 +90,7 @@ export default function Home () {
         <div className='h-2'></div>
 
         <h2 className='font-sans list-inside list-decimal text-center sm:text-left text-3xl font-semibold'>
-          My Projects
+          Projects
         </h2>
         <BentoDemo />
         {/* <GridPattern
