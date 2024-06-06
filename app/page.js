@@ -38,6 +38,24 @@ export default function Home () {
             GitHub
           </a>
           <a
+            href='mailto:contact@jidef.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <ShimmerButton className='shadow-2xl'>
+              <span className='whitespace-pre-wrap text-center  leading-none tracking-tight text-white dark:from-white text-sm py-0 sm:text-base flex items-center justify-center gap-2 min-w-44 xl:min-w-32'>
+                <Image
+                  aria-hidden
+                  src='/send.svg'
+                  alt='Send icon'
+                  width={20}
+                  height={20}
+                />
+                Let's talk
+              </span>
+            </ShimmerButton>
+          </a>
+          <a
             className='rounded-full border border-solid border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 min-w-56 xl:min-w-44 gap-2 '
             href='https://x.com/jidef'
             target='_blank'
@@ -66,24 +84,6 @@ export default function Home () {
               height={20}
             />
             YouTube
-          </a>
-          <a
-            href='mailto:contact@jidef.com'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <ShimmerButton className='shadow-2xl'>
-              <span className='whitespace-pre-wrap text-center  leading-none tracking-tight text-white dark:from-white text-sm py-0 sm:text-base flex items-center justify-center gap-2 min-w-44 xl:min-w-32'>
-                <Image
-                  aria-hidden
-                  src='/send.svg'
-                  alt='Send icon'
-                  width={20}
-                  height={20}
-                />
-                Let's talk
-              </span>
-            </ShimmerButton>
           </a>
         </div>
         {/* separator */}
