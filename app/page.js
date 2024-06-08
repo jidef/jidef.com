@@ -22,7 +22,7 @@ export default function Home () {
             <Badge>Available for hire</Badge>
           </div>
         </div>
-        <span className='text-center sm:text-left text-xl max-w-[500px] text-gray-300'>
+        <span className='text-center sm:text-left text-xl max-w-[500px] text-gray-300 text-wrap'>
           Architecting scalable enterprise growth with innovative solutions and
           business-centric perspectives.
         </span>
