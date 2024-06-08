@@ -23,8 +23,8 @@ export default function Home () {
           </div>
         </div>
         <span className='text-center sm:text-left text-xl max-w-[500px] text-gray-300'>
-          Architecting scalable enterprise growth with innovative solutions,
-          ensuring top-notch performance and business-centric perspectives.
+          Architecting scalable enterprise growth with innovative solutions and
+          business-centric perspectives.
         </span>
         <div className='flex gap-4 items-center flex-col lg:flex-row'>
           <a
