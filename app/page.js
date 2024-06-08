@@ -11,7 +11,7 @@ export default function Home () {
   return (
     <div className='relative font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20  text-[#fff]'>
       <div className='relative h-full w-full '>
-        <div className='absolute bottom-0 left-[15%] right-0 top-[-20%] h-[350px] lg:h-[600px] w-[350px] lg:w-[600px] rounded-full bg-[radial-gradient(circle_farthest-side,rgb(104,0,255,0.09),rgba(255,255,255,0))] -z-10'></div>
+        <div className='absolute bottom-0 left-[15%] right-0 top-[-20%] h-[300px] lg:h-[600px] w-[300px] lg:w-[600px] rounded-full bg-[radial-gradient(circle_farthest-side,rgb(104,0,255,0.09),rgba(255,255,255,0))] -z-10'></div>
       </div>
       <main className='flex flex-col gap-8 row-start-2 items-center sm:items-start w-full xl:w-[1000px] mx-auto mt-4'>
         <div className='flex row gap-2'>
