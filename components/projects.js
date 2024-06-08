@@ -11,7 +11,7 @@ const features = [
     background: (
       <img
         src='/image1.jpg'
-        className='absolute h-full w-full object-cover opacity-60'
+        className='absolute h-full w-full object-cover opacity-60 transition duration-300 ease-in-out hover:scale-110'
       ></img>
     ),
     className: 'lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-3'
@@ -25,7 +25,7 @@ const features = [
     background: (
       <img
         src='/image5.jpg'
-        className='absolute h-full w-full object-cover opacity-60'
+        className='absolute h-full w-full object-cover opacity-60 transition duration-300 ease-in-out hover:scale-110'
       ></img>
     ),
     className: 'lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3'
@@ -39,7 +39,7 @@ const features = [
     background: (
       <img
         src='/image3.jpg'
-        className='absolute h-full w-full object-cover opacity-60'
+        className='absolute h-full w-full object-cover opacity-60 transition duration-300 ease-in-out hover:scale-110'
       ></img>
     ),
     className: 'lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4'
@@ -53,7 +53,7 @@ const features = [
     background: (
       <img
         src='/image2.jpg'
-        className='absolute h-full w-full object-cover opacity-60'
+        className='absolute h-full w-full object-cover opacity-60 transition duration-300 ease-in-out hover:scale-110'
       ></img>
     ),
     className: 'lg:col-start-3 lg:col-end-3 lg:row-start-1 lg:row-end-4'

@@ -14,7 +14,7 @@ import { cn } from '@/lib/utils'
  */
 export default function ShineBorder ({
   borderRadius = 40,
-  borderWidth = 1,
+  borderWidth = 2,
   duration = 14,
   color = '#fff',
   className,
@@ -26,7 +26,7 @@ export default function ShineBorder ({
         '--border-radius': `${borderRadius}px`
       }}
       className={cn(
-        'relative grid min-h-[20px] w-fit min-w-[200px] place-items-center rounded-[--border-radius]  bg-white p-3 text-black dark:bg-black dark:text-white border-white/[.145] border border-solid',
+        'relative grid min-h-[20px] w-fit min-w-[200px] place-items-center rounded-[--border-radius]  bg-white p-3 text-black dark:bg-background dark:text-white border-white/[.145] border border-solid',
         className
       )}
     >

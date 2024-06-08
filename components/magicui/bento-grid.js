@@ -41,10 +41,15 @@ const BentoCard = ({
 
     <div
       className={cn(
-        'pointer-events-none absolute bottom-0 flex w-full translate-y-10 transform-gpu flex-row items-center p-2 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100 text-white'
+        'pointer-events-none absolute bottom-0 flex w-full translate-y-10 transform-gpu flex-row items-center p-2 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100 text-white z-10 gap-2'
       )}
     >
-      <Button variant='ghost' asChild size='' className='pointer-events-auto'>
+      <Button
+        variant='ghost'
+        asChild
+        size=''
+        className='pointer-events-auto rounded-full border border-solid border-white/[.145]'
+      >
         <a href={href} className='flex row gap-2'>
           <Image
             aria-hidden
@@ -56,7 +61,12 @@ const BentoCard = ({
           {cta}
         </a>
       </Button>
-      <Button variant='ghost' asChild size='' className='pointer-events-auto'>
+      <Button
+        variant='ghost'
+        asChild
+        size=''
+        className='pointer-events-auto rounded-full border border-solid border-white/[.145]'
+      >
         <a href={href} className='flex row gap-2'>
           <Image
             aria-hidden
