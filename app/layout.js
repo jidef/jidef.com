@@ -45,6 +45,7 @@ export default function RootLayout ({ children }) {
           name='twitter:image'
           content='https://jidef.com/images/image.jpg'
         />
+        <link rel="icon" type="image/x-icon" href="https://jidef.github.io/favicon/favicon.ico"></link>
       </Head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
