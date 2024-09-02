@@ -16,15 +16,14 @@ export default function Home () {
       <main className='flex flex-col gap-8 row-start-2 items-center sm:items-start w-full xl:w-[1000px] mx-auto mt-4'>
         <div className='flex row gap-2'>
           <h1 className='font-sans list-inside list-decimal text-center sm:text-left text-3xl font-semibold'>
-            Jidef / Web Developer
+            Tristan Vidal / Software Developer
           </h1>
-          <div className='flex items-center gap-2'>
+          <div className='flex items-center gap-2 element cursor-crosshair'>
             <Badge>Available for hire</Badge>
           </div>
         </div>
         <span className='text-center sm:text-left text-xl max-w-[500px] text-gray-300 text-wrap'>
-          Architecting scalable enterprise growth with innovative solutions and
-          business-centric perspectives.
+        Crafting innovative solutions to drive scalable enterprise growth with a business-focused approach.
         </span>
         <div className='flex gap-4 items-center flex-col lg:flex-row'>
           <a
@@ -43,7 +42,7 @@ export default function Home () {
             GitHub
           </a>
           <a
-            href='mailto:contact@jidef.com'
+            href='mailto:tres@duck.com'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -116,10 +115,10 @@ export default function Home () {
         {/* separator */}
         <div className='h-2'></div>
 
-        <h2 className='font-sans list-inside list-decimal text-center sm:text-left text-3xl font-semibold'>
+        {/* <h2 className='font-sans list-inside list-decimal text-center sm:text-left text-3xl font-semibold'>
           Projects
         </h2>
-        <BentoDemo />
+        <BentoDemo /> */}
         {/* <GridPattern
           width={20}
           height={20}
