@@ -50,7 +50,7 @@ export default function Home () {
               className='text-center capitalize transition-[0.6s] hover:scale-105'
               color={['#A07CFE', '#FE8FB5', '#FFBE7B']}
             >
-              <span className='whitespace-pre-wrap text-center  leading-none tracking-tight text-white dark:from-white text-sm py-0 sm:text-base flex items-center justify-center gap-2 min-w-52 xl:min-w-40'>
+              <span className='whitespace-pre-wrap text-center  leading-none tracking-tight text-white from-white text-sm py-0 sm:text-base flex items-center justify-center gap-2 min-w-52 xl:min-w-40'>
                 <Image
                   aria-hidden
                   src='/send.svg'
