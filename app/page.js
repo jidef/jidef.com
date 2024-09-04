@@ -47,7 +47,7 @@ export default function Home () {
             rel='noopener noreferrer'
           >
             <ShineBorder
-              className='text-center capitalize bg-background transition-[0.6s]s hover:scale-105'
+              className='text-center capitalize bg-background transition-[0.6s] hover:scale-105'
               color={['#A07CFE', '#FE8FB5', '#FFBE7B']}
             >
               <span className='whitespace-pre-wrap text-center leading-none tracking-tight text-white text-sm py-0 sm:text-base flex items-center justify-center gap-2 min-w-52 xl:min-w-40 '>
