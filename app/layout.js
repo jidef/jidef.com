@@ -12,7 +12,7 @@ const geistMono = localFont({
 })
 
 export const metadata = {
-  title: 'Tristan - Software Developer',
+  title: 'Jidef - Software Developer',
   description:
     'Crafting innovative solutions to drive scalable enterprise growth with a business-focused approach'
 }
