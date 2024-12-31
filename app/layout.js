@@ -45,6 +45,7 @@ export default function RootLayout ({ children }) {
           name='twitter:image'
           content='https://jidef.com/images/image.jpg'
         />
+        <script src="https://analytics.ahrefs.com/analytics.js" data-key="0U6g34Rh69u4RuOfmmG6pA" async></script>
       </Head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
