@@ -1,6 +1,7 @@
 import localFont from 'next/font/local'
 import './globals.css'
 import Head from 'next/head'
+import Script from 'next/script'
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -45,7 +46,7 @@ export default function RootLayout ({ children }) {
           name='twitter:image'
           content='https://jidef.com/images/image.jpg'
         />
-        <script src="https://analytics.ahrefs.com/analytics.js" data-key="0U6g34Rh69u4RuOfmmG6pA" async></script>
+        <Script src="https://analytics.ahrefs.com/analytics.js" data-key="0U6g34Rh69u4RuOfmmG6pA" async/>
       </Head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
