@@ -2,6 +2,7 @@ import localFont from 'next/font/local'
 import './globals.css'
 import Head from 'next/head'
 import Script from 'next/script'
+import { Toaster } from 'sonner'
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -49,6 +50,7 @@ export default function RootLayout ({ children }) {
         <Script src="https://analytics.ahrefs.com/analytics.js" data-key="0U6g34Rh69u4RuOfmmG6pA" async/>
       </Head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <Toaster />
         {children}
       </body>
     </html>

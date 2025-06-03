@@ -5,7 +5,7 @@ import DotPattern from '@/components/magicui/dot-pattern'
 import ShimmerButton from '@/components/magicui/shimmer-button'
 import Particles from '@/components/magicui/particles'
 import { Badge } from '@/components/ui/badge'
-import ShineBorder from '@/components/magicui/shine-border'
+import ContactButton from '@/components/magicui/contact-button'
 
 export default function Home () {
   return (
@@ -41,27 +41,7 @@ export default function Home () {
             />
             GitHub
           </a>
-          <a
-            href='mailto:tres@duck.com'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <ShineBorder
-              className='text-center capitalize bg-background transition-[0.6s] hover:scale-105'
-              color={['#A07CFE', '#FE8FB5', '#FFBE7B']}
-            >
-              <span className='whitespace-pre-wrap text-center leading-none tracking-tight text-white text-sm py-0 sm:text-base flex items-center justify-center gap-2 min-w-52 xl:min-w-40 '>
-                <Image
-                  aria-hidden
-                  src='/send.svg'
-                  alt='Send icon'
-                  width={20}
-                  height={20}
-                />
-                Let's talk
-              </span>
-            </ShineBorder>
-          </a>
+          <ContactButton />
           {/* <a
             href='mailto:contact@jidef.com'
             target='_blank'
